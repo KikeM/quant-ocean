@@ -61,7 +61,7 @@ you to the same point as the original market-like price series.
 Why is it risk-free? Because the daily returns of this series have *zero variance*
 for the whole period of evolution.
 
-![Original prices](figures\original_and_risk_free.png)
+![Original prices](./figures/original_and_risk_free.png)
 
 Of course, this isn't the risk-free curve you will encounter out there. In the industry, 
 most will refer to the risk-free asset or curve as the one drawn by sovereign bonds,
