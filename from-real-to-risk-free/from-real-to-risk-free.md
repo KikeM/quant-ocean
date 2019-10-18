@@ -33,7 +33,7 @@ $$
 
 Indeed, if you compound that figure for 10 years you end up with the exact 152%. 
 
-![Original prices](figures\10_years_returns.png)
+![10 years returns composition](./figures/10_years_returns.png)
 
 (Watchout with the typical [fence post mistake](https://betterexplained.com/articles/learning-how-to-count-avoiding-the-fencepost-problem/), the annualization factor
 is 1/9 and not 1/10!).
@@ -105,7 +105,7 @@ The *cumulative product* of this new sequence of returns $1 + \hat{r}_r(\varepsi
 will lead to new price series which will hopefully lie in the space between the 
 original and the risk-free curves.
 
-![Series with arithmetic returns](figures\arithmetic_returns.png)
+![Series with arithmetic returns](./figures/arithmetic_returns.png)
  
 This looks like the kind of thing we are after, but something went wrong ...
 **they do not end up in the same point!**
@@ -118,7 +118,7 @@ $$
 \ln\left(1+\hat{r}_t(\varepsilon)\right) = (1-\varepsilon) \ln \left(1 + r_t\right) + \varepsilon \ln \left(1 + a_T\right)
 $$
 
-![Series with arithmetic and logarithmic returns](figures\comparison_returns.png)
+![Series with arithmetic and logarithmic returns](./figures/comparison_returns.png)
 
 Now the transformation seems to be working properly! The curves decrease in 
 volatility as the parameter $\varepsilon$ increases, but they also end up in the 
@@ -168,7 +168,7 @@ Interestingly, when the volatility of each new sequence of returns for each
 interpolation strategy is computed, we get again a surprising result: both
 strategies generate series with the same volatility for each value of 
 $\varepsilon$.
-![Volatilties](figures\volatilities.png)
+![Volatilties](./figures/volatilities.png)
 
 # Conclusions
 
