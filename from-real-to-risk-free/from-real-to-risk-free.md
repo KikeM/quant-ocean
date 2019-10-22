@@ -2,7 +2,7 @@
 
 As Nassim Taleb states, *ideas come and go, stories stay.* 
 
-So today I am going to build for you a story which hopefully will carve in your
+So today @mmngreco and myself are going to build for you a story which hopefully will carve in your
 mind the importance of doing things right; or put differently, of using 
 logarithmic returns instead of arithmetic returns when you should.  
 
