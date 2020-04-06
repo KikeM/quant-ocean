@@ -1,0 +1,6 @@
+numpy
+pandas
+ffn
+seaborn
+matplotlib
+tqdm
